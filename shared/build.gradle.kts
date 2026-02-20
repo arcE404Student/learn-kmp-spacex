@@ -104,6 +104,10 @@ kotlin {
                 implementation(libs.androidx.runner)
                 implementation(libs.androidx.core)
                 implementation(libs.androidx.testExt.junit)
+                // Coroutine
+                implementation(libs.kotlinx.coroutines.test)
+                // Ktor
+                implementation(libs.ktor.client.mock)
             }
         }
 
