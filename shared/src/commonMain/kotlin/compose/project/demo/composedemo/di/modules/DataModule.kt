@@ -17,7 +17,7 @@ val dataModule = module {
     }
 
     single { get<DriverFactory>().createDriver() }
-    single { AppDatabase(get()) }
-    single { get<AppDatabase>().appDatabaseQueries }
-    single<ILocalRocketLaunchesDataSource> { LocalRocketLaunchesDataSource(get()) }
+    //single { AppDatabase(get()) }
+    //single { get<AppDatabase>().appDatabaseQueries }
+    //single<ILocalRocketLaunchesDataSource> { LocalRocketLaunchesDataSource(get()) }
 }
